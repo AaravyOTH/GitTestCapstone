@@ -7,7 +7,7 @@ public class Main {
             }
             return sum;
         };
-        int result = numberAdder.numberAdder(Integer.parseInt(args[0]) , Integer.parseInt(args[args.length-1]));
+        int result = numberAdder.numberAdder(1, 3);
         System.out.println(result);
 
     
