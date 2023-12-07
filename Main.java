@@ -7,8 +7,9 @@ public class Main {
             }
             return sum;
         };
-        int result = numberAdder.numberAdder(1, 3);
+        int result = numberAdder.numberAdder(Integer.parseInt(args[0]) , Integer.parseInt(args[args.length-1]));
         System.out.println(result);
+    
 
     
     }
